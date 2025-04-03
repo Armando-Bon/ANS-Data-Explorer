@@ -22,7 +22,29 @@ O projeto está organizado em tres partes principais:
 
 ## Configuração e Instalação
 
-### Backend
+### Backend 1
+
+1. Crie um ambiente virtual Python:
+   ```bash
+   python -m venv venv
+   ```
+
+2. Ative o ambiente virtual:
+   - No Windows: `venv\Scripts\activate`
+   - No macOS/Linux: `source venv/bin/activate`
+
+3. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Execute o servidor:
+   ```bash
+   python main.py
+   ```
+   O controle desta aplicação é feita no próprio console
+
+### Backend 2
 
 1. Crie um ambiente virtual Python:
    ```bash
